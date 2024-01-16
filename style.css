@@ -177,64 +177,143 @@ nav a:hover{
     font-size: 20px;
 }
 
-/* Destination section start */
-/* .destination{
-    margin-top: 100px;
-    width: 1170px;
-    height: 500px;
 
 
-}
 
-.destination-content{
+/* Destination section main part */
+.destination-title{
+    margin-top: 10rem;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-left: 135px;
-
-
 }
 
-.destination-content h1{
+.destination-title h1{
     color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
     font-weight: 800;
 
 }
-.destination-content p{
+.destination-title p{
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
-    font-size: 16px;
-    margin-top: 24px;
-    margin-bottom: 48px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 643px;
+    padding-left: 22rem;
 }
+
+
+.two-img{
+    display: flex;
+    margin-left: 8.5rem;
+}
+
+
 
 .img-1{
-    padding-left: 13.5vh;
-    display: flex;
-}
-
-.img-text1{
+    width: 35.8rem;
+    height: 18.75rem;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+    color: #FFF;
     justify-content: center;
-    align-items: center;
     text-align: center;
+    font-size: 1.75rem;
+
+    background-repeat: no-repeat;
+    margin-right: 1.5rem;
+   
 }
 
 .img-2{
-    padding-left: 13.5vh;
+    width: 35.8rem;
+    height: 18.75rem;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 8.png), lightgray 50% / cover no-repeat;
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    background-repeat: no-repeat;
+}
+
+.three-img{
     display: flex;
-    padding-top: 2.4vh;
+    margin-left: 7rem;
 }
 .img-3{
-    padding-left: 13.5vh;
-    display: flex;
-    padding-top: 2.4vh;
+    width: 23.375rem;
+    height: 17.875rem;
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 6.png), lightgray 50% ;
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    background-repeat: no-repeat;
+    margin: 1.5rem;
+}
+.img-4{
+    width: 29.625rem;
+    height: 17.875rem;
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    background-repeat: no-repeat;
+    margin-right: 1.5rem;
+}
+.img-5{
+    width: 17.125rem;
+    height: 17.875rem;
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle9.png), lightgray 50% / cover no-repeat;
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    background-repeat: no-repeat;
 }
 
-.img-1 img{
+.multi-img{
     display: flex;
-} */
-
-/* choose section start */
+    margin-left: 8.5rem;
+}
+.img-6{
+    width: 29.563rem;
+    height: 18.75rem;
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    background-repeat: no-repeat;
+    margin-right: 1.5rem;
+    
+}
+.img-7{
+    width: 42.063rem;
+    height: 18.75rem;
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    background-repeat: no-repeat;
+}
 
 .choose-section{
     margin-top: 100px;
@@ -396,6 +475,7 @@ nav a:hover{
     justify-content: flex-start;
     align-items: center;
     display: flex;
+    margin-bottom: 1.5rem;
 }
 
 .deals-box2{
@@ -416,15 +496,133 @@ nav a:hover{
     font-size: 10px;
 }
 
+/* A Simple Perfect Place To Get Lost */
+.get-lost{
+    margin-bottom: 100px;
+    display: flex;
+    width: 1170px;
+    height: 500px;
+}
+
+.get-lost-content{
+    padding-left: 135px;
+    padding-right: 30px;
+}
+.get-lost-content h1{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 60px; /* 150% */
+}
+.get-lost-content p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.get-lost ul{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 162.5%
+}
+
+.get-lost-img{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%),url(Images/Group\ 40089.png);
+    padding-top: 10rem;
+    width: 510px;
+    height: 400px;
+    flex-shrink: 0;
+    text-align: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    background-repeat: no-repeat;
+     /* 150% */
+}
+
+/* Newsletter section */
+
+.Newsletter{
+    margin-bottom: 100px;
+    display: flex;
+    width: 1170px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8.3rem;
+}
+
+.Newsletter-content{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-right: 20px;
+    width: 474px;
+    height: 422px;
+    padding-left: 2.5rem;
+
+}
+
+.Newsletter-content h3{
+    padding-top: 2.8rem;
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.sign-up{
+    margin-top: 1rem;
+    width: 24.5rem;
+    height: 3.25rem;
+    margin-bottom: 2.5rem;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    padding-left: 1.2rem;
+}
+
+.subscribe{
+    width: 24.5rem;
+    height: 3.25rem;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
 
 
+.save{
+    border-radius: 16px;
+    width: 42rem;
+    height: 26rem;
+    background: url(Images/Rectangle\ 8-1.png), lightgray 50% / cover no-repeat;
 
+}
+
+.save h1{
+    width: 17.25rem;
+    height: 6rem;
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+    text-align: center;
+
+    margin-top: 17rem ;
+    margin-left: 22rem;
+    color: #FFF;
+    
+}
 
 
 
 
 /* footer section start */
 .footer{
+    padding-top: 100px;
+    margin-top: 100px;
     width: 1440px;
     height: 502px;
     flex-shrink: 0;
